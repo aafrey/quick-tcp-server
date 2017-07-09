@@ -1,0 +1,28 @@
+{
+  "name": "quick-tcp-server",
+  "version": "1.0.0",
+  "description": "Quick streaming TCP server using pull-streams",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aafrey/quick-tcp-server.git"
+  },
+  "keywords": [
+    "tcp",
+    "net",
+    "pull-stream"
+  ],
+  "author": "Austin Frey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aafrey/quick-tcp-server/issues"
+  },
+  "homepage": "https://github.com/aafrey/quick-tcp-server#readme",
+  "dependencies": {
+    "pull-net": "^1.0.1",
+    "pull-stream": "^3.6.0"
+  }
+}
